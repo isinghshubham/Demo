@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="url"
+		value="https://timkends.syndigo.com/home?idp=timkends_auth0_idp" />
+	<parameter name="excelFilePath"
+		value="C:/Users/ssingh/eclipse-workspace/Demo/src/test/java/DemoProject/logindetails/Userlogin.xlsx" />
+	<parameter name="outputExcelPath"
+		value="C:/Users/ssingh/eclipse-workspace/Demo/src/test/java/DemoProject/logindetails/Outputfile.xlsx" />
+	<parameter name="headless" value="false" /> <!-- Set to true for headless testing -->
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="DemoProject.Demo.Login" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
