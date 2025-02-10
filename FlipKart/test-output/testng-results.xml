@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="6" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-10T16:53:50 IST" name="Suite" finished-at="2025-02-10T16:54:11 IST" duration-ms="20467">
+    <groups>
+    </groups>
+    <test started-at="2025-02-10T16:53:50 IST" name="Test" finished-at="2025-02-10T16:54:11 IST" duration-ms="20467">
+      <class name="FlipKart.FlipKart.Delivery_Page">
+        <test-method signature="DeliveryScreen()[pri:3, instance:FlipKart.FlipKart.Delivery_Page@d59970a]" started-at="2025-02-10T16:54:11 IST" name="DeliveryScreen" finished-at="2025-02-10T16:54:11 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeliveryScreen -->
+      </class> <!-- FlipKart.FlipKart.Delivery_Page -->
+      <class name="FlipKart.FlipKart.Search_Product">
+        <test-method signature="searchAndAddProduct()[pri:2, instance:FlipKart.FlipKart.Search_Product@27494e46]" started-at="2025-02-10T16:54:11 IST" name="searchAndAddProduct" finished-at="2025-02-10T16:54:11 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAndAddProduct -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:FlipKart.FlipKart.Search_Product@27494e46]" started-at="2025-02-10T16:54:11 IST" name="teardown" finished-at="2025-02-10T16:54:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- FlipKart.FlipKart.Search_Product -->
+      <class name="FlipKart.FlipKart.FlipKartLogin">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:FlipKart.FlipKart.FlipKartLogin@5339bbad]" started-at="2025-02-10T16:53:50 IST" name="setup" finished-at="2025-02-10T16:53:50 IST" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:\Users\ssingh\eclipse-workspace\FlipKart\src\main\java\FlipKart\FlipKart\UserDetail\UserDetail.xlsx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="flipkartLoginTest(java.lang.String)[pri:1, instance:FlipKart.FlipKart.FlipKartLogin@5339bbad]" started-at="2025-02-10T16:53:50 IST" name="flipkartLoginTest" finished-at="2025-02-10T16:54:11 IST" duration-ms="20398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.flipkart.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipkartLoginTest -->
+        <test-method signature="setup(java.lang.String)[pri:1, instance:FlipKart.FlipKart.FlipKartLogin@5339bbad]" started-at="2025-02-10T16:54:11 IST" name="setup" finished-at="2025-02-10T16:54:11 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:\Users\ssingh\eclipse-workspace\FlipKart\src\main\java\FlipKart\FlipKart\UserDetail\UserDetail.xlsx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="DeliveryScreen()[pri:3, instance:FlipKart.FlipKart.FlipKartLogin@5339bbad]" started-at="2025-02-10T16:54:11 IST" name="DeliveryScreen" finished-at="2025-02-10T16:54:11 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeliveryScreen -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:FlipKart.FlipKart.FlipKartLogin@5339bbad]" started-at="2025-02-10T16:54:11 IST" name="teardown" finished-at="2025-02-10T16:54:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- FlipKart.FlipKart.FlipKartLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
